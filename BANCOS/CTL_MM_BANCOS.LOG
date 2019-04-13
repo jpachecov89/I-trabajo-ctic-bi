@@ -1,0 +1,53 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Vie Abr 12 00:17:41 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   CTL_MM_BANCOS.CTL
+Data File:      RCC_BANCOS_F.txt
+  Bad File:     RCC_BANCOS_F.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table MM_BANCOS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CODENTIDAD                          FIRST     *  WHT      CHARACTER            
+BANCO                                NEXT     *  WHT      CHARACTER            
+NOMBREBANCO                          NEXT     *  WHT      CHARACTER            
+TIPOENTIDAD                          NEXT     *  WHT      CHARACTER            
+TIPOCOMPETENCIA                      NEXT     *  WHT      CHARACTER            
+TIPOCOMPETENCIA2                     NEXT     *  WHT      CHARACTER            
+
+
+Table MM_BANCOS:
+  115 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  99072 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           115
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Vie Abr 12 00:17:41 2019
+Run ended on Vie Abr 12 00:17:42 2019
+
+Elapsed time was:     00:00:01.50
+CPU time was:         00:00:00.01
